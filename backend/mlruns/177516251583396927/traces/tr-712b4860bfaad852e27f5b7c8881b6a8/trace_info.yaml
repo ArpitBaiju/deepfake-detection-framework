@@ -1,0 +1,15 @@
+execution_duration_ms: 915
+request_preview: Review this Python function that calculates factorial.
+request_time: '2026-09-06T00:12:34.951Z'
+response_preview: "## Code Review: factorial function\n\n### Issues Found\n1. **[Critical]
+  Bug - Line 3**: No handling for negative numbers\n   - Fix: Add `if n < 0: raise
+  ValueError('n must be non-negative')`\n\n2. **[Major] Performance - Line 5**: Recursive
+  implementation has O(n) stack depth\n   - Fix: Use iterative approach or `math.factorial()`
+  for large n\n\n3. **[Minor] Style**: Missing type hints and docstring\n\n### Positive
+  Aspects\n- Clean, readable implementation\n- Correct base case handling"
+state: OK
+trace_id: tr-712b4860bfaad852e27f5b7c8881b6a8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

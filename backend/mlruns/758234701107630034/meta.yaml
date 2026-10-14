@@ -1,0 +1,9 @@
+artifact_location: file:///C:/Users/HP/deepfake-detection-framework/backend/mlruns/758234701107630034
+creation_time: 1788800699491
+effective_trace_archival_retention: null
+experiment_id: '758234701107630034'
+last_update_time: 1788800699491
+lifecycle_stage: active
+name: deepfake-model-evaluation
+trace_location: null
+workspace: default

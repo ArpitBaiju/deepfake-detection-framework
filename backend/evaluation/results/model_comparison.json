@@ -1,0 +1,58 @@
+[
+  {
+    "Model ID": "basic_cnn",
+    "Model Name": "Basic CNN",
+    "Accuracy": 0.8596,
+    "Precision": 0.8547,
+    "Recall (Sensitivity)": 0.864,
+    "F1-Score": 0.8593,
+    "ROC-AUC": 0.935,
+    "Specificity": 0.8552,
+    "False Positive Rate": 0.1448,
+    "False Negative Rate": 0.136,
+    "Total Params": 388673,
+    "Latency (ms)": 37.78
+  },
+  {
+    "Model ID": "resnet18",
+    "Model Name": "ResNet18",
+    "Accuracy": 0.9298,
+    "Precision": 0.906,
+    "Recall (Sensitivity)": 0.9581,
+    "F1-Score": 0.9313,
+    "ROC-AUC": 0.9808,
+    "Specificity": 0.902,
+    "False Positive Rate": 0.098,
+    "False Negative Rate": 0.0419,
+    "Total Params": 11177025,
+    "Latency (ms)": 48.22
+  },
+  {
+    "Model ID": "efficientnet_b0",
+    "Model Name": "EfficientNet-B0",
+    "Accuracy": 0.9073,
+    "Precision": 0.9049,
+    "Recall (Sensitivity)": 0.9087,
+    "F1-Score": 0.9068,
+    "ROC-AUC": 0.9708,
+    "Specificity": 0.9059,
+    "False Positive Rate": 0.0941,
+    "False Negative Rate": 0.0913,
+    "Total Params": 4008829,
+    "Latency (ms)": 85.37
+  },
+  {
+    "Model ID": "xception",
+    "Model Name": "Xception",
+    "Accuracy": 0.9083,
+    "Precision": 0.9207,
+    "Recall (Sensitivity)": 0.8921,
+    "F1-Score": 0.9062,
+    "ROC-AUC": 0.9738,
+    "Specificity": 0.9243,
+    "False Positive Rate": 0.0757,
+    "False Negative Rate": 0.1079,
+    "Total Params": 20809001,
+    "Latency (ms)": 198.43
+  }
+]

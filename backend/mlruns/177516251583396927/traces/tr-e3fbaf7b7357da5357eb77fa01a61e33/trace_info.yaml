@@ -1,0 +1,11 @@
+execution_duration_ms: 678
+request_preview: What do you see in this image?
+request_time: '2026-09-02T17:00:33.314Z'
+response_preview: The image appears to be a small red square. It could be a test image
+  or a placeholder graphic of some kind.
+state: OK
+trace_id: tr-e3fbaf7b7357da5357eb77fa01a61e33
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

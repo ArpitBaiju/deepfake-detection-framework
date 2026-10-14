@@ -1,0 +1,1 @@
+{"choices": [{"message": {"role": "assistant", "content": "MLflow has an evaluate() function. You pass it some data and scorers and it gives you back metrics. The results are logged automatically I think."}}]}

@@ -1,0 +1,1 @@
+{"choices": [{"message": {"role": "assistant", "content": "You can build a Docker image with MLflow and deploy it to Kubernetes using standard kubectl commands."}}]}

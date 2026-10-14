@@ -1,0 +1,5 @@
+image_path,true_label,predicted_label,true_class_id,predicted_class_id,real_probability,fake_probability,is_correct
+test_fixtures\eval_test\fake\fake_01.jpg,FAKE,REAL,0,1,0.59957,0.40043,False
+test_fixtures\eval_test\fake\fake_02.png,FAKE,REAL,0,1,0.59958,0.40042,False
+test_fixtures\eval_test\real\real_01.jpg,REAL,FAKE,1,0,0.00527,0.99473,False
+test_fixtures\eval_test\real\real_02.png,REAL,FAKE,1,0,0.00518,0.99482,False

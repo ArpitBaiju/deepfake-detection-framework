@@ -1,0 +1,12 @@
+execution_duration_ms: 392
+request_preview: What's the weather in San Francisco and should I bring an umbrella
+  today?
+request_time: '2026-09-01T10:16:32.414Z'
+response_preview: The weather in San Francisco is currently 62 degrees with partly
+  cloudy skies. There's some chance of rain today, but I'm not sure exactly how much.
+state: OK
+trace_id: tr-04a57a8ddeb27d530824605abd1faad5
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

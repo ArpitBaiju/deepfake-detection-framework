@@ -1,0 +1,16 @@
+execution_duration_ms: 809
+request_preview: I have a model logged in MLflow. How do I deploy it as an API?
+request_time: '2026-09-07T15:53:35.829Z'
+response_preview: "Great! Here's the deployment path:\n\n1. **Register the model**
+  (if not already):\n```python\nmlflow.register_model(\n    'runs:/<run_id>/model',\n
+  \   'my-classifier'\n)\n```\n\n2. **Serve it locally**:\n```bash\nmlflow models
+  serve -m models:/my-classifier/1 -p 5001\n```\n\n3. **Test the endpoint**:\n```bash\ncurl
+  -X POST http://localhost:5001/invocations \\\n  -H 'Content-Type: application/json'
+  \\\n  -d '{\"inputs\": [[1, 2, 3, 4]]}'\n```\n\nWant to deploy to Kubernetes or
+  a cloud platform instead?"
+state: OK
+trace_id: tr-510e46ac7a7f49bec07f77f1d1ab794a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

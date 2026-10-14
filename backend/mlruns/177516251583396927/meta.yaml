@@ -1,0 +1,9 @@
+artifact_location: file:///C:/Users/HP/deepfake-detection-framework/backend/mlruns/177516251583396927
+creation_time: 1788812058849
+effective_trace_archival_retention: null
+experiment_id: '177516251583396927'
+last_update_time: 1788812058849
+lifecycle_stage: active
+name: MLflow Demo
+trace_location: null
+workspace: default

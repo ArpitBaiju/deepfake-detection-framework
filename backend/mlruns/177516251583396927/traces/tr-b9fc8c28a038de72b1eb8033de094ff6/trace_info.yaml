@@ -1,0 +1,13 @@
+execution_duration_ms: 1304
+request_preview: What's the weather in San Francisco and should I bring an umbrella
+  today?
+request_time: '2026-09-05T04:18:33.414Z'
+response_preview: It's currently 62F and partly cloudy in San Francisco with only
+  a 15% chance of rain. You probably don't need an umbrella today, but a light jacket
+  might be nice for the evening fog!
+state: OK
+trace_id: tr-b9fc8c28a038de72b1eb8033de094ff6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

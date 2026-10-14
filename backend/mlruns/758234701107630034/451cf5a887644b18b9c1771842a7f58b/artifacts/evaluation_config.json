@@ -1,0 +1,32 @@
+{
+  "model_id": "basic_cnn",
+  "model_name": "Basic CNN",
+  "architecture_details": "4-block Conv2d with BatchNorm, LeakyReLU, MaxPool2d and Linear classifier",
+  "checkpoint_path": "C:\\Users\\HP\\deepfake-detection-framework\\backend\\weights\\basic_cnn.pth",
+  "checkpoint_sha256": "e77ade85fe89ec8c29fc8f3d3e4b583d59b830ec7ec2da151f92b220ecfd6f24",
+  "classification_threshold": 0.5,
+  "positive_class": "REAL (1)",
+  "negative_class": "FAKE (0)",
+  "total_parameters": 388673,
+  "trainable_parameters": 388673,
+  "device": "cpu",
+  "torch_version": "2.2.2+cpu",
+  "dataset_summary": {
+    "dataset_path": "..\\dataset\\test",
+    "total_samples": 114,
+    "num_fake": 65,
+    "num_real": 49,
+    "fake_percentage": 57.02,
+    "real_percentage": 42.98,
+    "num_corrupted": 0,
+    "input_resolution": [
+      256,
+      256
+    ],
+    "class_mapping": {
+      "0": "FAKE",
+      "1": "REAL"
+    }
+  },
+  "is_mock": false
+}

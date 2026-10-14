@@ -1,0 +1,32 @@
+{
+  "model_id": "resnet18",
+  "model_name": "ResNet18",
+  "architecture_details": "18-layer residual architecture with identity shortcut mappings",
+  "checkpoint_path": "C:\\Users\\HP\\deepfake-detection-framework\\backend\\weights\\resnet18.pth",
+  "checkpoint_sha256": "2b105d947d1090d287ce4a8482355e66b99abd65e7d40b437362286e346161f0",
+  "classification_threshold": 0.5,
+  "positive_class": "REAL (1)",
+  "negative_class": "FAKE (0)",
+  "total_parameters": 11177025,
+  "trainable_parameters": 11177025,
+  "device": "cpu",
+  "torch_version": "2.2.2+cpu",
+  "dataset_summary": {
+    "dataset_path": "..\\dataset\\test",
+    "total_samples": 114,
+    "num_fake": 65,
+    "num_real": 49,
+    "fake_percentage": 57.02,
+    "real_percentage": 42.98,
+    "num_corrupted": 0,
+    "input_resolution": [
+      256,
+      256
+    ],
+    "class_mapping": {
+      "0": "FAKE",
+      "1": "REAL"
+    }
+  },
+  "is_mock": false
+}

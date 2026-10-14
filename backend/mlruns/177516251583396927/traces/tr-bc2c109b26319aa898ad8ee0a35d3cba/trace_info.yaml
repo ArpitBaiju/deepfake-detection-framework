@@ -1,0 +1,19 @@
+execution_duration_ms: 1834
+request_preview: Yes, I want to deploy to Kubernetes. What's the process?
+request_time: '2026-09-08T12:55:35.840Z'
+response_preview: "Here's the K8s deployment workflow:\n\n1. **Build a Docker image**:\n```bash\nmlflow
+  models build-docker \\\n  -m models:/my-classifier/1 \\\n  -n my-classifier:v1\n```\n\n2.
+  **Push to your registry**:\n```bash\ndocker push your-registry/my-classifier:v1\n```\n\n3.
+  **Deploy to K8s** — I generated the manifest for you (2 replicas on port 8080):\n```yaml\napiVersion:
+  apps/v1\nkind: Deployment\nmetadata:\n  name: my-classifier\nspec:\n  replicas:
+  2\n  selector:\n    matchLabels:\n      app: my-classifier\n  template:\n    metadata:\n
+  \     labels:\n        app: my-classifier\n    spec:\n      containers:\n      -
+  name: model\n        image: your-registry/my-classifier:v1\n        ports:\n        -
+  containerPort: 8080\n```\n\nThe container exposes a `/invocations` endpoint compatible
+  with MLflow's format."
+state: OK
+trace_id: tr-bc2c109b26319aa898ad8ee0a35d3cba
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

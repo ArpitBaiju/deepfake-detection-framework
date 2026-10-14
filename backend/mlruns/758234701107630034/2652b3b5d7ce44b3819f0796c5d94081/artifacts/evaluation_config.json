@@ -1,0 +1,32 @@
+{
+  "model_id": "efficientnet_b0",
+  "model_name": "EfficientNet-B0",
+  "architecture_details": "MBConv blocks with squeeze-and-excitation optimization",
+  "checkpoint_path": "C:\\Users\\HP\\deepfake-detection-framework\\backend\\weights\\efficientnet_b0.pth",
+  "checkpoint_sha256": "00ff0ab109720fe16aac0590a17919bddcbb8100bc380f1e32f0a8df85e41f8a",
+  "classification_threshold": 0.5,
+  "positive_class": "REAL (1)",
+  "negative_class": "FAKE (0)",
+  "total_parameters": 4008829,
+  "trainable_parameters": 4008829,
+  "device": "cpu",
+  "torch_version": "2.2.2+cpu",
+  "dataset_summary": {
+    "dataset_path": "..\\dataset\\test",
+    "total_samples": 114,
+    "num_fake": 65,
+    "num_real": 49,
+    "fake_percentage": 57.02,
+    "real_percentage": 42.98,
+    "num_corrupted": 0,
+    "input_resolution": [
+      256,
+      256
+    ],
+    "class_mapping": {
+      "0": "FAKE",
+      "1": "REAL"
+    }
+  },
+  "is_mock": false
+}

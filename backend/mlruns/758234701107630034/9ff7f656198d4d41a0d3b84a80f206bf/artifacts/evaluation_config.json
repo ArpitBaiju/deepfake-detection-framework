@@ -1,0 +1,32 @@
+{
+  "model_id": "xception",
+  "model_name": "Xception",
+  "architecture_details": "Entry, Middle (8 repeats), and Exit flow with depthwise separable layers",
+  "checkpoint_path": "C:\\Users\\HP\\deepfake-detection-framework\\backend\\weights\\xception_current.pth",
+  "checkpoint_sha256": "6d6ed1d7e7b12bdbc4ca371398815100d81554521a68e0bbee7d000a82e03085",
+  "classification_threshold": 0.5,
+  "positive_class": "REAL (1)",
+  "negative_class": "FAKE (0)",
+  "total_parameters": 20809001,
+  "trainable_parameters": 20809001,
+  "device": "cpu",
+  "torch_version": "2.2.2+cpu",
+  "dataset_summary": {
+    "dataset_path": "test_fixtures\\eval_test",
+    "total_samples": 4,
+    "num_fake": 2,
+    "num_real": 2,
+    "fake_percentage": 50.0,
+    "real_percentage": 50.0,
+    "num_corrupted": 0,
+    "input_resolution": [
+      256,
+      256
+    ],
+    "class_mapping": {
+      "0": "FAKE",
+      "1": "REAL"
+    }
+  },
+  "is_mock": false
+}

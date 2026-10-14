@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/deepfake-detection-framework/backend/mlruns/758234701107630034/0bc4319870c74e03bf6aa91e541dbd37/artifacts
+deleted_time: 1788875848321
+end_time: 1788800702233
+entry_point_name: ''
+experiment_id: '758234701107630034'
+lifecycle_stage: deleted
+run_id: 0bc4319870c74e03bf6aa91e541dbd37
+run_name: resnet18-evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1788800701989
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,5 @@
+Model ID,Model Name,Accuracy,Precision,Recall (Sensitivity),F1-Score,ROC-AUC,Specificity,False Positive Rate,False Negative Rate,Total Params,Latency (ms)
+basic_cnn,Basic CNN,0.8596,0.8547,0.864,0.8593,0.935,0.8552,0.1448,0.136,388673,37.78
+resnet18,ResNet18,0.9298,0.906,0.9581,0.9313,0.9808,0.902,0.098,0.0419,11177025,48.22
+efficientnet_b0,EfficientNet-B0,0.9073,0.9049,0.9087,0.9068,0.9708,0.9059,0.0941,0.0913,4008829,85.37
+xception,Xception,0.9083,0.9207,0.8921,0.9062,0.9738,0.9243,0.0757,0.1079,20809001,198.43

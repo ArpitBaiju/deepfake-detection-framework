@@ -1,0 +1,32 @@
+execution_duration_ms: 587
+request_preview: I think it's a retrieval issue - sometimes it finds irrelevant documents.
+request_time: '2026-09-07T13:17:35.787Z'
+response_preview: 'Let me dig into your recent traces to confirm.
+
+
+  I pulled 50 recent RETRIEVER spans and scored them: the **average relevance is 0.62**,
+  with **18 low-scoring cases** clustered on long-form queries. The pattern fits a
+  too-strict similarity threshold combined with chunks that cut mid-sentence.
+
+
+  **Recommended config changes:**
+
+  - Lower similarity threshold: `0.8 → 0.75` (captures borderline-relevant chunks)
+
+  - Increase chunk size: `256 → 512` tokens (reduces mid-sentence cutoffs)
+
+
+  ```python
+
+  mlflow.log_params({''chunk_size'': 512, ''threshold'': 0.75})
+
+  ```
+
+
+  Want me to also try a different embedding model?'
+state: OK
+trace_id: tr-e8a9e944adbb615bf8520d4784d5314d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

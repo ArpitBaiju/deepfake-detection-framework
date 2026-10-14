@@ -1,0 +1,12 @@
+execution_duration_ms: 347
+request_preview: 'Generate a simple logo: a red square on a white background.'
+request_time: '2026-09-03T07:27:33.316Z'
+response_preview: '{"data": [{"b64_json": "mlflow-attachment://03b597ad-ef9c-4b6b-9220-208c7b120842?content_type=image%2Fpng&trace_id=tr-d08891d505db8c3f2c5db532689ea05e&size=75",
+  "revised_prompt": "A minimalist logo featuring a solid red square centered on a
+  clean white background."}]}'
+state: OK
+trace_id: tr-d08891d505db8c3f2c5db532689ea05e
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,15 @@
+execution_duration_ms: 980
+request_preview: My RAG application is giving inconsistent answers. How can I debug
+  it?
+request_time: '2026-09-07T18:57:35.778Z'
+response_preview: "Let's debug this systematically with MLflow Tracing!\n\n1. **Enable
+  tracing** to capture every step:\n```python\nmlflow.tracing.enable()\n```\n\n2.
+  **Check the Traces tab** in MLflow UI to see:\n   - What documents were retrieved\n
+  \  - The actual prompts sent to the LLM\n   - Token usage and latency per step\n\nWhat
+  kind of inconsistency are you seeing - retrieval or generation issues?"
+state: OK
+trace_id: tr-e6cb66bf0cdba5ee300d72854e17522e
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 702
+request_preview: Create a summary of the machine learning research paper for a technical
+  blog.
+request_time: '2026-09-02T10:49:32.910Z'
+response_preview: The paper proposes a new transformer architecture that is more efficient.
+state: OK
+trace_id: tr-30bc93acbc865b11083963928ebce7c2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '177516251583396927'
+  type: MLFLOW_EXPERIMENT
